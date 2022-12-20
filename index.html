@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>   
+        <section class="container-header">     
+            <div class="menu-header">
+                <ul class="menu">
+                    <li><a href=>Home</a></li>
+                    <li><a href=>Sobre</a></li>
+                    <li><a href=>Contato</a></li>
+                </ul>
+            </div>
+            <p class="nome-projeto">ENCRIPTRIX</p>
+        </section>
+    </header>
+
+    <canvas id="canvas-matrix" width="1280" height="720"></canvas>
+
+    <section class="principal">
+        <div class="mensagem-divi">
+            <p class="output-matrix-texto">OUTPUT MATRIX =></p>
+            <textarea name="" class="mensagem" id="mensagem" value=""></textarea>
+        </div>  
+        <hr>
+        <div class="cripto-decripto">
+            Texto Para CRIPTOGRAFAR
+            <textarea id="texto-puro" class="texto-puro"></textarea>
+            <button onclick="criptografar()">CRIPTOGRAFAR</button>
+            <button onclick="descriptografar()">DESCRIPTOGRAFAR</button>  
+        </div>
+
+    </section>
+    
+    <footer>
+        
+        &copy; Copyright Marcus Xavier 2022
+
+    </footer>
+
+</body>
+
+    <script src="js/index.js"></script>
+</html>

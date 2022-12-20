@@ -1,0 +1,58 @@
+canvas{
+    margin: 0;
+    width: 100%;
+    height: 720px;
+    background: black;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+}
+
+.nome-projeto{
+    font-size: 32px;
+    text-align: left;
+    background: lightblue;
+}
+
+.menu-header{
+    float:right;    
+}
+
+li{
+    display: inline;
+    margin: 5px auto;
+    padding: 8px;
+}
+
+.principal{
+    background: lightblue;
+    height: 140px;
+}
+
+.cripto-decripto{
+    background: lightblue;
+}
+
+.mensagem-divi{
+    float:right;
+    background: lightblue;
+    width: 40%;
+}
+
+.output-matrix-texto{
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+}
+
+footer{
+    background: lightblue;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 21px;
+    margin: 4px 0;
+}
