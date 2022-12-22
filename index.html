@@ -12,36 +12,40 @@
         <section class="container-header">     
             <div class="menu-header">
                 <ul class="menu">
-                    <li><a href=>Home</a></li>
-                    <li><a href=>Sobre</a></li>
-                    <li><a href=>Contato</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </div>
-            <p class="nome-projeto">ENCRIPTRIX</p>
+            <p class="nome-projeto"><a href="index.html">ENCRIPTRIX</a></p>
         </section>
     </header>
-
-    <canvas id="canvas-matrix" width="1280" height="720"></canvas>
+    <hr size="1">
+    <canvas id="canvas-matrix"></canvas>
 
     <section class="principal">
         <div class="mensagem-divi">
-            <p class="output-matrix-texto">OUTPUT MATRIX =></p>
+            <p class="output-matrix-texto">OUTPUT MATRIX</p>
             <textarea name="" class="mensagem" id="mensagem" value=""></textarea>
-        </div>  
-        <hr>
+        </div>
+
+        <br>
+        <br>
+        <br>
         <div class="cripto-decripto">
             Texto Para CRIPTOGRAFAR
             <textarea id="texto-puro" class="texto-puro"></textarea>
-            <button onclick="criptografar()">CRIPTOGRAFAR</button>
-            <button onclick="descriptografar()">DESCRIPTOGRAFAR</button>  
+            <div class="botoes-alinhamento">
+                <button onclick="criptografar()">CRIPTOGRAFAR</button>
+                <button onclick="descriptografar()">DESCRIPTOGRAFAR</button>  
+            </div>
         </div>
 
     </section>
     
     <footer>
         
-        &copy; Copyright Marcus Xavier 2022
-
+        <small>&copy; 2022 Marcus Xavier</small>
     </footer>
 
 </body>

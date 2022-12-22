@@ -10,6 +10,7 @@ function descriptografar(){
     var msg = document.querySelector('#mensagem').value;
     var descriptografaTexto = window.atob(msg);
     document.querySelector('#mensagem').innerHTML = descriptografaTexto;
+    drawCripto(descriptografaTexto);
     mostrarLOG(descriptografaTexto);
 }
 

@@ -1,23 +1,52 @@
+body{
+    background: lightblue;
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
 canvas{
     margin: 0;
     width: 100%;
     height: 720px;
     background: black;
+    border: 3px solid white;
+    border-radius: 8px;
 }
 
 header{
     width: 100%;
     height: 40px;
+    margin: 7px;
 }
 
 .nome-projeto{
     font-size: 32px;
     text-align: left;
-    background: lightblue;
 }
 
 .menu-header{
     float:right;    
+    margin: 7px;
+
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+a:hover{
+    color: white;
+
+}
+
+.sem-classe{
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
 }
 
 li{
@@ -27,32 +56,45 @@ li{
 }
 
 .principal{
-    background: lightblue;
-    height: 140px;
-}
-
-.cripto-decripto{
-    background: lightblue;
+   height: 140px;
 }
 
 .mensagem-divi{
     float:right;
-    background: lightblue;
-    width: 40%;
+    padding: 3px;
+    background: royalblue;
+}
+
+.mensagem{
+    width: 98%;
+}
+
+.texto-puro{
+    width: 100%;
 }
 
 .output-matrix-texto{
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: left;
 }
 
-footer{
-    background: lightblue;
-    text-align: center;
+.cripto-decripto{
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 21px;
-    margin: 4px 0;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.botoes-alinhamento{
+    text-align: center;
+}
+
+.titulo-padrao{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
 }
